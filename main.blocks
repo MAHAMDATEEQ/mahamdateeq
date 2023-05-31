@@ -1,0 +1,17 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="YzE?upD1PTR]~S(?uv6P" x="170" y="160" h="200" w="200">item - 0
+
+def on button_pressed_a():
+
+  global item
+
+  item += 1
+
+basic.show number (item)
+
+input.on_button_pressed(Button.A, on_button_pressed_a)
+
+def on button_pressed_b():
+
+basic.show_string("Basel!")
+
+input.on_button_pressed(Button.B, on button pressed_b)</comment></xml>
